@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">ادمین سایت</title>
+  <desc id="desc">تصویر نمادین ادمین با سپر امنیت</desc>
+  <defs>
+    <linearGradient id="bg" x1="20" y1="10" x2="145" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset="1" stop-color="#DCEBFF"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="50" y1="96" x2="112" y2="153" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2F80ED"/>
+      <stop offset="1" stop-color="#0758DB"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="38" fill="url(#bg)"/>
+  <circle cx="80" cy="62" r="31" fill="#FFD8BD"/>
+  <path d="M49 61c0-22 13-37 32-37 20 0 32 14 32 36-9-3-18-10-23-18-8 10-22 17-41 19Z" fill="#263C5A"/>
+  <path d="M38 151c3-34 19-52 42-52s40 18 43 52H38Z" fill="url(#shirt)"/>
+  <path d="M67 76c7 6 19 6 26 0" fill="none" stroke="#B56C55" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="68" cy="62" r="3" fill="#263C5A"/>
+  <circle cx="92" cy="62" r="3" fill="#263C5A"/>
+  <path d="M116 91 139 99v18c0 15-10 27-23 32-13-5-23-17-23-32V99l23-8Z" fill="#fff" stroke="#8DB8F5" stroke-width="3"/>
+  <path d="m106 117 7 7 14-16" fill="none" stroke="#0866FF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

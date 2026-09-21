@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#f4f7fb">
+    <title>چت‌های من</title>
+    <link rel="stylesheet" href="/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/dashboard.css">
+</head>
+<body>
+    <main class="dashboard-shell">
+        <header class="dashboard-topbar">
+            <a class="dashboard-brand" href="/" aria-label="صفحه اصلی">
+                <span class="brand-icon"><i class="fas fa-paper-plane" aria-hidden="true"></i></span>
+                <span>گفت‌وگو</span>
+            </a>
+            <div class="user-actions">
+                <span class="user-greeting" id="userGreeting"></span>
+                <button class="theme-button" id="themeToggleBtn" type="button" aria-pressed="false" title="فعال‌کردن حالت تاریک">
+                    <i class="far fa-moon" aria-hidden="true"></i>
+                    <span>حالت تاریک</span>
+                </button>
+                <button class="logout-button" id="logoutButton" type="button">
+                    <i class="fas fa-arrow-right-from-bracket" aria-hidden="true"></i>
+                    <span>خروج</span>
+                </button>
+            </div>
+        </header>
+
+        <section class="admin-card" aria-labelledby="adminMessageTitle">
+            <div class="admin-image-wrap">
+                <img src="/icons/admin-avatar.svg" alt="تصویر ادمین سایت" class="admin-image">
+                <span class="admin-online-dot" aria-label="فعال"></span>
+            </div>
+            <div class="admin-message">
+                <span class="admin-label"><i class="fas fa-shield-halved" aria-hidden="true"></i> پیام ادمین</span>
+                <h1 id="adminMessageTitle">سلام، خوش آمدید!</h1>
+                <p>از این صفحه می‌توانید همه گفت‌وگوهای خود را ببینید و پیام‌ها یا منشن‌های جدید را سریع‌تر دنبال کنید.</p>
+            </div>
+        </section>
+
+        <section class="chats-section" aria-labelledby="chatsTitle">
+            <div class="section-heading">
+                <div>
+                    <span class="section-eyebrow">فضای شما</span>
+                    <h2 id="chatsTitle">چت‌های من</h2>
+                </div>
+                <div class="section-actions">
+                    <span class="chat-total" id="chatTotal" aria-live="polite">در حال بارگذاری…</span>
+                    <button class="create-chat-button" id="createChatButton" type="button">
+                        <i class="fas fa-plus" aria-hidden="true"></i>
+                        <span>ساخت چت</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="chat-list" id="chatList" aria-live="polite" aria-busy="true">
+                <div class="chat-skeleton"></div>
+                <div class="chat-skeleton"></div>
+                <div class="chat-skeleton"></div>
+            </div>
+
+            <div class="dashboard-state" id="emptyState" hidden>
+                <span class="state-icon"><i class="far fa-comments" aria-hidden="true"></i></span>
+                <h3>هنوز عضو چتی نیستید</h3>
+                <p>بعد از پیوستن به یک گفت‌وگو، آن چت در این بخش نمایش داده می‌شود.</p>
+            </div>
+
+            <div class="dashboard-state error-state" id="errorState" hidden>
+                <span class="state-icon"><i class="fas fa-triangle-exclamation" aria-hidden="true"></i></span>
+                <h3>دریافت چت‌ها انجام نشد</h3>
+                <p>اتصال خود را بررسی کنید و دوباره تلاش کنید.</p>
+                <button id="retryButton" type="button">تلاش دوباره</button>
+            </div>
+        </section>
+    </main>
+
+    <dialog class="create-chat-dialog" id="createChatDialog" aria-labelledby="createChatTitle">
+        <form class="create-chat-form" id="createChatForm">
+            <div class="dialog-heading">
+                <div>
+                    <span class="section-eyebrow">گفت‌وگوی تازه</span>
+                    <h2 id="createChatTitle">ساخت چت جدید</h2>
+                </div>
+                <button class="dialog-close" id="closeCreateChatButton" type="button" aria-label="بستن">
+                    <i class="fas fa-xmark" aria-hidden="true"></i>
+                </button>
+            </div>
+            <p class="dialog-description">یک نام برای چت انتخاب کنید. شما مدیر چت خواهید بود و می‌توانید لینک آن را برای دیگران بفرستید.</p>
+            <label class="chat-name-label" for="newChatName">نام چت</label>
+            <input id="newChatName" name="name" type="text" maxlength="80" required autocomplete="off" placeholder="مثلاً گروه دوستان">
+            <p class="create-chat-status" id="createChatStatus" role="status" aria-live="polite"></p>
+            <div class="dialog-actions">
+                <button class="cancel-button" id="cancelCreateChatButton" type="button">انصراف</button>
+                <button class="submit-chat-button" id="submitCreateChatButton" type="submit">
+                    <i class="fas fa-plus" aria-hidden="true"></i>
+                    <span>ساخت چت</span>
+                </button>
+            </div>
+        </form>
+    </dialog>
+    <script src="/dashboard.js"></script>
+</body>
+</html>

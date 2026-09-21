@@ -1,0 +1,506 @@
+[
+  {
+    "id": "thumbs_up",
+    "emoji": "👍",
+    "name": "Thumbs Up",
+    "file": "/emojis/reactions/thumbs_up.webp"
+  },
+  {
+    "id": "thumbs_down",
+    "emoji": "👎",
+    "name": "Thumbs Down",
+    "file": "/emojis/reactions/thumbs_down.webp"
+  },
+  {
+    "id": "red_heart",
+    "emoji": "❤️",
+    "name": "Red Heart",
+    "file": "/emojis/reactions/red_heart.webp"
+  },
+  {
+    "id": "fire",
+    "emoji": "🔥",
+    "name": "Fire",
+    "file": "/emojis/reactions/fire.webp"
+  },
+  {
+    "id": "party_popper",
+    "emoji": "🎉",
+    "name": "Party Popper",
+    "file": "/emojis/reactions/party_popper.webp"
+  },
+  {
+    "id": "clapping_hands",
+    "emoji": "👏",
+    "name": "Clapping Hands",
+    "file": "/emojis/reactions/clapping_hands.webp"
+  },
+  {
+    "id": "face_with_tears_of_joy",
+    "emoji": "😂",
+    "name": "Face With Tears Of Joy",
+    "file": "/emojis/reactions/face_with_tears_of_joy.webp"
+  },
+  {
+    "id": "smiling_face_with_hearts",
+    "emoji": "🥰",
+    "name": "Smiling Face With Hearts",
+    "file": "/emojis/reactions/smiling_face_with_hearts.webp"
+  },
+  {
+    "id": "face_screaming_in_fear",
+    "emoji": "😱",
+    "name": "Face Screaming In Fear",
+    "file": "/emojis/reactions/face_screaming_in_fear.webp"
+  },
+  {
+    "id": "thinking_face",
+    "emoji": "🤔",
+    "name": "Thinking Face",
+    "file": "/emojis/reactions/thinking_face.webp"
+  },
+  {
+    "id": "exploding_head",
+    "emoji": "🤯",
+    "name": "Exploding Head",
+    "file": "/emojis/reactions/exploding_head.webp"
+  },
+  {
+    "id": "pile_of_poo",
+    "emoji": "💩",
+    "name": "Pile Of Poo",
+    "file": "/emojis/reactions/pile_of_poo.webp"
+  },
+  {
+    "id": "hundred_points",
+    "emoji": "💯",
+    "name": "Hundred Points",
+    "file": "/emojis/reactions/hundred_points.webp"
+  },
+  {
+    "id": "crying_face",
+    "emoji": "😢",
+    "name": "Crying Face",
+    "file": "/emojis/reactions/crying_face.webp"
+  },
+  {
+    "id": "star_struck",
+    "emoji": "🤩",
+    "name": "Star Struck",
+    "file": "/emojis/reactions/star_struck.webp"
+  },
+  {
+    "id": "eyes",
+    "emoji": "👀",
+    "name": "Eyes",
+    "file": "/emojis/reactions/eyes.webp"
+  },
+  {
+    "id": "heart_on_fire",
+    "emoji": "❤️‍🔥",
+    "name": "Heart On Fire",
+    "file": "/emojis/reactions/heart_on_fire.webp"
+  },
+  {
+    "id": "dove",
+    "emoji": "🕊️",
+    "name": "Dove",
+    "file": "/emojis/reactions/dove.webp"
+  },
+  {
+    "id": "high_voltage",
+    "emoji": "⚡",
+    "name": "High Voltage",
+    "file": "/emojis/reactions/high_voltage.webp"
+  },
+  {
+    "id": "handshake",
+    "emoji": "🤝",
+    "name": "Handshake",
+    "file": "/emojis/reactions/handshake.webp"
+  },
+  {
+    "id": "rolling_on_the_floor_laughing",
+    "emoji": "🤣",
+    "name": "Rolling On The Floor Laughing",
+    "file": "/emojis/reactions/rolling_on_the_floor_laughing.webp"
+  },
+  {
+    "id": "folded_hands",
+    "emoji": "🙏",
+    "name": "Folded Hands",
+    "file": "/emojis/reactions/folded_hands.webp"
+  },
+  {
+    "id": "ok_hand",
+    "emoji": "👌",
+    "name": "Ok Hand",
+    "file": "/emojis/reactions/ok_hand.webp"
+  },
+  {
+    "id": "clown_face",
+    "emoji": "🤡",
+    "name": "Clown Face",
+    "file": "/emojis/reactions/clown_face.webp"
+  },
+  {
+    "id": "yawning_face",
+    "emoji": "🥱",
+    "name": "Yawning Face",
+    "file": "/emojis/reactions/yawning_face.webp"
+  },
+  {
+    "id": "woozy_face",
+    "emoji": "🥴",
+    "name": "Woozy Face",
+    "file": "/emojis/reactions/woozy_face.webp"
+  },
+  {
+    "id": "hot_dog",
+    "emoji": "🌭",
+    "name": "Hot Dog",
+    "file": "/emojis/reactions/hot_dog.webp"
+  },
+  {
+    "id": "banana",
+    "emoji": "🍌",
+    "name": "Banana",
+    "file": "/emojis/reactions/banana.webp"
+  },
+  {
+    "id": "trophy",
+    "emoji": "🏆",
+    "name": "Trophy",
+    "file": "/emojis/reactions/trophy.webp"
+  },
+  {
+    "id": "broken_heart",
+    "emoji": "💔",
+    "name": "Broken Heart",
+    "file": "/emojis/reactions/broken_heart.webp"
+  },
+  {
+    "id": "face_with_raised_eyebrow",
+    "emoji": "🤨",
+    "name": "Face With Raised Eyebrow",
+    "file": "/emojis/reactions/face_with_raised_eyebrow.webp"
+  },
+  {
+    "id": "neutral_face",
+    "emoji": "😐",
+    "name": "Neutral Face",
+    "file": "/emojis/reactions/neutral_face.webp"
+  },
+  {
+    "id": "strawberry",
+    "emoji": "🍓",
+    "name": "Strawberry",
+    "file": "/emojis/reactions/strawberry.webp"
+  },
+  {
+    "id": "bottle_with_popping_cork",
+    "emoji": "🍾",
+    "name": "Bottle With Popping Cork",
+    "file": "/emojis/reactions/bottle_with_popping_cork.webp"
+  },
+  {
+    "id": "kiss_mark",
+    "emoji": "💋",
+    "name": "Kiss Mark",
+    "file": "/emojis/reactions/kiss_mark.webp"
+  },
+  {
+    "id": "middle_finger",
+    "emoji": "🖕",
+    "name": "Middle Finger",
+    "file": "/emojis/reactions/middle_finger.webp"
+  },
+  {
+    "id": "smiling_face_with_horns",
+    "emoji": "😈",
+    "name": "Smiling Face With Horns",
+    "file": "/emojis/reactions/smiling_face_with_horns.webp"
+  },
+  {
+    "id": "sleeping_face",
+    "emoji": "😴",
+    "name": "Sleeping Face",
+    "file": "/emojis/reactions/sleeping_face.webp"
+  },
+  {
+    "id": "loudly_crying_face",
+    "emoji": "😭",
+    "name": "Loudly Crying Face",
+    "file": "/emojis/reactions/loudly_crying_face.webp"
+  },
+  {
+    "id": "nerd_face",
+    "emoji": "🤓",
+    "name": "Nerd Face",
+    "file": "/emojis/reactions/nerd_face.webp"
+  },
+  {
+    "id": "ghost",
+    "emoji": "👻",
+    "name": "Ghost",
+    "file": "/emojis/reactions/ghost.webp"
+  },
+  {
+    "id": "jack_o_lantern",
+    "emoji": "🎃",
+    "name": "Jack-O-Lantern",
+    "file": "/emojis/reactions/jack_o_lantern.webp"
+  },
+  {
+    "id": "see_no_evil_monkey",
+    "emoji": "🙈",
+    "name": "See-No-Evil Monkey",
+    "file": "/emojis/reactions/see_no_evil_monkey.webp"
+  },
+  {
+    "id": "smiling_face_with_halo",
+    "emoji": "😇",
+    "name": "Smiling Face With Halo",
+    "file": "/emojis/reactions/smiling_face_with_halo.webp"
+  },
+  {
+    "id": "fearful_face",
+    "emoji": "😨",
+    "name": "Fearful Face",
+    "file": "/emojis/reactions/fearful_face.webp"
+  },
+  {
+    "id": "hugging_face",
+    "emoji": "🤗",
+    "name": "Hugging Face",
+    "file": "/emojis/reactions/hugging_face.webp"
+  },
+  {
+    "id": "saluting_face",
+    "emoji": "🫡",
+    "name": "Saluting Face",
+    "file": "/emojis/reactions/saluting_face.webp"
+  },
+  {
+    "id": "nail_polish",
+    "emoji": "💅",
+    "name": "Nail Polish",
+    "file": "/emojis/reactions/nail_polish.webp"
+  },
+  {
+    "id": "zany_face",
+    "emoji": "🤪",
+    "name": "Zany Face",
+    "file": "/emojis/reactions/zany_face.webp"
+  },
+  {
+    "id": "moai",
+    "emoji": "🗿",
+    "name": "Moai",
+    "file": "/emojis/reactions/moai.webp"
+  },
+  {
+    "id": "heart_with_arrow",
+    "emoji": "💘",
+    "name": "Heart With Arrow",
+    "file": "/emojis/reactions/heart_with_arrow.webp"
+  },
+  {
+    "id": "hear_no_evil_monkey",
+    "emoji": "🙉",
+    "name": "Hear-No-Evil Monkey",
+    "file": "/emojis/reactions/hear_no_evil_monkey.webp"
+  },
+  {
+    "id": "unicorn",
+    "emoji": "🦄",
+    "name": "Unicorn",
+    "file": "/emojis/reactions/unicorn.webp"
+  },
+  {
+    "id": "face_blowing_a_kiss",
+    "emoji": "😘",
+    "name": "Face Blowing A Kiss",
+    "file": "/emojis/reactions/face_blowing_a_kiss.webp"
+  },
+  {
+    "id": "pill",
+    "emoji": "💊",
+    "name": "Pill",
+    "file": "/emojis/reactions/pill.webp"
+  },
+  {
+    "id": "speak_no_evil_monkey",
+    "emoji": "🙊",
+    "name": "Speak-No-Evil Monkey",
+    "file": "/emojis/reactions/speak_no_evil_monkey.webp"
+  },
+  {
+    "id": "smiling_face_with_sunglasses",
+    "emoji": "😎",
+    "name": "Smiling Face With Sunglasses",
+    "file": "/emojis/reactions/smiling_face_with_sunglasses.webp"
+  },
+  {
+    "id": "alien_monster",
+    "emoji": "👾",
+    "name": "Alien Monster",
+    "file": "/emojis/reactions/alien_monster.webp"
+  },
+  {
+    "id": "drooling_face",
+    "emoji": "🤤",
+    "name": "Drooling Face",
+    "file": "/emojis/reactions/drooling_face.webp"
+  },
+  {
+    "id": "nauseated_face",
+    "emoji": "🤢",
+    "name": "Nauseated Face",
+    "file": "/emojis/reactions/nauseated_face.webp"
+  },
+  {
+    "id": "face_vomiting",
+    "emoji": "🤮",
+    "name": "Face Vomiting",
+    "file": "/emojis/reactions/face_vomiting.webp"
+  },
+  {
+    "id": "zipper_mouth_face",
+    "emoji": "🤐",
+    "name": "Zipper-Mouth Face",
+    "file": "/emojis/reactions/zipper_mouth_face.webp"
+  },
+  {
+    "id": "partying_face",
+    "emoji": "🥳",
+    "name": "Partying Face",
+    "file": "/emojis/reactions/partying_face.webp"
+  },
+  {
+    "id": "pleading_face",
+    "emoji": "🥺",
+    "name": "Pleading Face",
+    "file": "/emojis/reactions/pleading_face.webp"
+  },
+  {
+    "id": "grinning_face",
+    "emoji": "😀",
+    "name": "Grinning Face",
+    "file": "/emojis/reactions/grinning_face.webp"
+  },
+  {
+    "id": "grinning_face_with_big_eyes",
+    "emoji": "😃",
+    "name": "Grinning Face With Big Eyes",
+    "file": "/emojis/reactions/grinning_face_with_big_eyes.webp"
+  },
+  {
+    "id": "grinning_face_with_smiling_eyes",
+    "emoji": "😄",
+    "name": "Grinning Face With Smiling Eyes",
+    "file": "/emojis/reactions/grinning_face_with_smiling_eyes.webp"
+  },
+  {
+    "id": "beaming_face_with_smiling_eyes",
+    "emoji": "😁",
+    "name": "Beaming Face With Smiling Eyes",
+    "file": "/emojis/reactions/beaming_face_with_smiling_eyes.webp"
+  },
+  {
+    "id": "grinning_squinting_face",
+    "emoji": "😆",
+    "name": "Grinning Squinting Face",
+    "file": "/emojis/reactions/grinning_squinting_face.webp"
+  },
+  {
+    "id": "winking_face",
+    "emoji": "😉",
+    "name": "Winking Face",
+    "file": "/emojis/reactions/winking_face.webp"
+  },
+  {
+    "id": "face_savoring_food",
+    "emoji": "😋",
+    "name": "Face Savoring Food",
+    "file": "/emojis/reactions/face_savoring_food.webp"
+  },
+  {
+    "id": "relieved_face",
+    "emoji": "😌",
+    "name": "Relieved Face",
+    "file": "/emojis/reactions/relieved_face.webp"
+  },
+  {
+    "id": "smirking_face",
+    "emoji": "😏",
+    "name": "Smirking Face",
+    "file": "/emojis/reactions/smirking_face.webp"
+  },
+  {
+    "id": "disappointed_face",
+    "emoji": "😞",
+    "name": "Disappointed Face",
+    "file": "/emojis/reactions/disappointed_face.webp"
+  },
+  {
+    "id": "pensive_face",
+    "emoji": "😔",
+    "name": "Pensive Face",
+    "file": "/emojis/reactions/pensive_face.webp"
+  },
+  {
+    "id": "worried_face",
+    "emoji": "😟",
+    "name": "Worried Face",
+    "file": "/emojis/reactions/worried_face.webp"
+  },
+  {
+    "id": "confused_face",
+    "emoji": "😕",
+    "name": "Confused Face",
+    "file": "/emojis/reactions/confused_face.webp"
+  },
+  {
+    "id": "slightly_frowning_face",
+    "emoji": "🙁",
+    "name": "Slightly Frowning Face",
+    "file": "/emojis/reactions/slightly_frowning_face.webp"
+  },
+  {
+    "id": "persevering_face",
+    "emoji": "😣",
+    "name": "Persevering Face",
+    "file": "/emojis/reactions/persevering_face.webp"
+  },
+  {
+    "id": "confounded_face",
+    "emoji": "😖",
+    "name": "Confounded Face",
+    "file": "/emojis/reactions/confounded_face.webp"
+  },
+  {
+    "id": "tired_face",
+    "emoji": "😫",
+    "name": "Tired Face",
+    "file": "/emojis/reactions/tired_face.webp"
+  },
+  {
+    "id": "weary_face",
+    "emoji": "😩",
+    "name": "Weary Face",
+    "file": "/emojis/reactions/weary_face.webp"
+  },
+  {
+    "id": "angry_face",
+    "emoji": "😠",
+    "name": "Angry Face",
+    "file": "/emojis/reactions/angry_face.webp"
+  },
+  {
+    "id": "pouting_face",
+    "emoji": "😡",
+    "name": "Pouting Face",
+    "file": "/emojis/reactions/pouting_face.webp"
+  }
+]

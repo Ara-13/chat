@@ -1,0 +1,19 @@
+node_modules/
+.env
+.DS_Store
+*.log
+npm-debug.log*
+storage/uploads/*
+!storage/uploads/.gitkeep
+coverage/
+.idea/
+.vscode/
+
+# Only the Font Awesome runtime files used by the browser are versioned.
+public/fonts/fontawesome/*
+!public/fonts/fontawesome/LICENSE.txt
+!public/fonts/fontawesome/css/
+public/fonts/fontawesome/css/*
+!public/fonts/fontawesome/css/all.min.css
+!public/fonts/fontawesome/webfonts/
+!public/fonts/fontawesome/webfonts/*.woff2

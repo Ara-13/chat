@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#ffffff">
+    <title>گفت‌وگو</title>
+    <link rel="stylesheet" href="/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/chat.css">
+</head>
+<body>
+    <main class="container">
+        <section class="chat-stage">
+            <div class="chat-area" id="chatArea">
+                <header class="chat-header">
+                    <div class="chat-contact-info">
+                        <a class="chat-back-button" href="/" aria-label="بازگشت به صفحه اصلی" title="بازگشت به صفحه اصلی">
+                            <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        </a>
+                        <button class="contact-name-avatar group-profile-trigger" id="groupProfileTrigger" type="button" aria-label="نمایش اعضای گروه">
+                            <span class="contact-initial" aria-hidden="true"><span class="avatar-letter" id="groupAvatarLetter">گ</span><span class="online-dot connecting"></span></span>
+                            <span class="contact-info">
+                                <span class="contact-title-row">
+                                    <span class="contact-title" id="groupTitle">گروه ما</span>
+                                    <span class="connection-status connecting" id="connectionStatus" role="status" aria-live="polite">
+                                        <span class="connection-status-dot" aria-hidden="true"></span>
+                                        <span class="connection-status-label">در حال تلاش برای اتصال</span>
+                                    </span>
+                                </span>
+                                <span class="contact-subtitle">
+                                    <span id="groupMembersCount">در حال بارگذاری…</span>
+                                    <span class="online-members-count" id="groupOnlineCount" hidden>
+                                        <span class="online-members-dot" aria-hidden="true"></span>
+                                        <span id="groupOnlineCountText"></span>
+                                    </span>
+                                </span>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="chat-header-actions">
+                        <button class="action-btn music-btn" id="musicBtn" type="button" aria-pressed="false"><i class="fas fa-headphones"></i><span>موسیقی</span></button>
+                        <button class="action-btn file-btn" id="fileBtn" type="button" aria-pressed="false"><i class="far fa-folder-open"></i><span>فایل‌ها</span></button>
+                    </div>
+                </header>
+
+                <div class="pinned-message-bar" id="pinnedMessageBar" hidden>
+                    <button class="pinned-message-jump" id="pinnedMessageJump" type="button">
+                        <span class="pinned-message-icon"><i class="fas fa-thumbtack"></i></span>
+                        <span class="pinned-message-copy">
+                            <strong>پیام پین‌شده</strong>
+                            <span id="pinnedMessageText"></span>
+                        </span>
+                    </button>
+                    <button class="pinned-message-unpin" id="pinnedMessageUnpin" type="button" aria-label="برداشتن پین" title="برداشتن پین">
+                        <i class="fas fa-times"></i><span>برداشتن پین</span>
+                    </button>
+                </div>
+
+                <div class="history-filter" id="historyFilter" hidden>
+                    <span id="historyFilterLabel"></span>
+                    <button id="clearHistoryFilter" type="button"><i class="fas fa-times"></i><span>نمایش همه پیام‌ها</span></button>
+                </div>
+                <div class="messages-container" id="messagesContainer"></div>
+                <button class="attention-jump" id="attentionJumpBtn" type="button" aria-label="رفتن به منشن یا پاسخ بعدی" hidden>
+                    <span aria-hidden="true">@</span><b id="attentionJumpCount"></b>
+                </button>
+                <button class="scroll-to-bottom" id="scrollToBottomBtn" type="button" aria-label="رفتن به آخرین پیام"><i class="fas fa-chevron-down"></i></button>
+
+                <div class="message-input-container">
+                    <div class="voice-recording-status" id="voiceRecordingStatus" role="status" aria-live="polite" hidden>
+                        <span class="recording-pulse" aria-hidden="true"></span>
+                        <span>در حال ضبط صدا</span>
+                        <time id="voiceRecordingTime">۰۰:۰۰</time>
+                        <button class="cancel-recording-button" id="cancelRecordingButton" type="button" title="لغو ضبط">لغو</button>
+                    </div>
+                    <div class="reply-preview" id="replyPreview" style="display:none;">
+                        <div class="reply-preview-icon"><i class="fas fa-reply"></i></div>
+                        <div class="reply-preview-content"><div class="reply-preview-sender" id="replyPreviewSender"></div><div class="reply-preview-text" id="replyPreviewText"></div></div>
+                        <button class="reply-preview-close" id="replyPreviewClose" type="button" aria-label="بستن پاسخ"><i class="fas fa-times"></i></button>
+                    </div>
+                    <div class="attachment-preview-container" id="attachmentPreviewContainer" style="display:none;">
+                        <div class="attachment-preview" id="attachmentPreview">
+                            <div class="preview-file-icon"><i class="far fa-file"></i></div>
+                            <div class="preview-file-info"><div class="preview-file-name" id="previewFileName">فایل</div><div class="preview-file-size" id="previewFileSize">0 KB</div></div>
+                            <button class="remove-attachment" id="removeAttachment" type="button" aria-label="حذف فایل"><i class="fas fa-times"></i></button>
+                        </div>
+                    </div>
+                    <div class="composer-row">
+                        <div class="message-input-wrapper">
+                            <div class="mention-suggestions" id="mentionSuggestions" role="listbox" aria-label="پیشنهاد اعضا" hidden></div>
+                            <button class="composer-icon attachment-icon" id="attachmentBtn" type="button" title="ضمیمه فایل"><i class="fas fa-paperclip"></i></button>
+                            <textarea id="messageInput" placeholder="پیام بنویسید…" rows="1"></textarea>
+                            <span class="composer-hint">Enter</span>
+                        </div>
+                        <input type="file" id="fileInput" class="file-input-hidden">
+                        <button class="edit-cancel-button" id="editCancelButton" type="button" title="لغو ویرایش"><i class="fas fa-times"></i><span>لغو</span></button>
+                        <button class="send-button voice-mode" id="sendButton" type="button" title="ضبط پیام صوتی" aria-label="ضبط پیام صوتی"><i class="fas fa-microphone"></i></button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <script src="/chat.js"></script>
+</body>
+</html>

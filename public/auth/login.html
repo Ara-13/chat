@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="./auth.css">
+</head>
+<body>
+
+<div class="auth-container">
+    <div class="auth-header">
+        <span>
+            اینجا می‌تونی لوگو، عکس<br>
+            یا پیام خوش‌آمدگویی بذاری
+        </span>
+    </div>
+
+    <form class="auth-form">
+        <input
+            type="text"
+            name="username"
+            placeholder="Username"
+            autocomplete="username"
+            required
+        />
+
+        <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            autocomplete="current-password"
+            required
+        />
+
+        <button type="submit">ورود</button>
+    </form>
+
+    <div class="auth-footer">
+        حساب نداری؟
+        <a href="./register">ثبت‌نام</a>
+    </div>
+</div>
+<script src="./login.js"></script>
+</body>
+</html>

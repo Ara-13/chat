@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="./auth.css">
+</head>
+<body>
+
+<div class="auth-container">
+    <div class="auth-header">
+        <span>
+            می‌تونی اینجا عکس، بنر<br>
+            یا قوانین ثبت‌نام رو بذاری
+        </span>
+    </div>
+
+    <form class="auth-form">
+        <input
+            type="text"
+            name="username"
+            placeholder="Username"
+            autocomplete="username"
+            required
+        />
+
+        <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            autocomplete="new-password"
+            required
+        />
+
+        <input
+            type="text"
+            name="invitation_code"
+            placeholder="Invitation Code"
+        />
+
+        <button type="submit">ثبت‌نام</button>
+    </form>
+
+    <div class="auth-footer">
+        قبلاً ثبت‌نام کردی؟
+        <a href="./login">ورود</a>
+    </div>
+</div>
+<script src="./register.js"></script>
+</body>
+</html>

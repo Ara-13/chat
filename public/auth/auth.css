@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    font-family: "Vazir";
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1e1e2f, #2b2b45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.auth-container {
+    width: 100%;
+    max-width: 420px;
+    background: #181826;
+    border-radius: 14px;
+    padding: 24px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.auth-header {
+    height: 120px;
+    border-radius: 10px;
+    background: #23233a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    color: #aaa;
+    text-align: center;
+    padding: 12px;
+}
+
+.auth-header span {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.auth-form input {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: #2a2a42;
+    color: #fff;
+    font-size: 14px;
+}
+
+.auth-form input::placeholder {
+    color: #999;
+}
+
+.auth-form button {
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: #4f7cff;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    transition: background 0.2s ease;
+}
+
+.auth-form button:hover {
+    background: #3d68e0;
+}
+
+.auth-footer {
+    margin-top: 16px;
+    text-align: center;
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+.auth-footer a {
+    color: #4f7cff;
+    text-decoration: none;
+}
+
+@media (max-width: 480px) {
+    .auth-container {
+        margin: 0 16px;
+    }
+}
